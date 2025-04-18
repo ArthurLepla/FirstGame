@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://cvapw7361es8m"]
+
+[ext_resource type="Script" path="res://MainMenu/main_menu.gd" id="1_yd4jx"]
+
+[node name="MainMenu" type="Node2D"]
+script = ExtResource("1_yd4jx")
+
+[node name="PlayButton" type="Button" parent="."]
+offset_left = 493.0
+offset_top = 276.0
+offset_right = 670.0
+offset_bottom = 356.0
+text = "Play"

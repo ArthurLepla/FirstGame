@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://bbq6l3r0clg77"]
+
+[ext_resource path="res://addons/character_creator/data/sprites/body/base_body.png" type="Texture" id=1]
+
+[node name="CharacterCreatorDock" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+// Add TabContainer under the root dock
+[node name="TabContainer" type="TabContainer" parent="CharacterCreatorDock"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+// Add a VBoxContainer for the Body tab
+[node name="BodyTab" type="VBoxContainer" parent="TabContainer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+custom_constants/separation = 10.0
+tab_title = "Body"
+
+// Add TextureRect to display the base body
+[node name="BodyPreview" type="TextureRect" parent="BodyTab"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+expand = true
+stretch_mode = 2
+texture = ExtResource(1)

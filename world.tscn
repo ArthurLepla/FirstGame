@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://ck30c8gyj8htl"]
+
+[ext_resource type="PackedScene" uid="uid://25drnrhreg7r" path="res://PNJ/night_clearing.tscn" id="1_6e3cg"]
+[ext_resource type="PackedScene" uid="uid://d02jablsjhynu" path="res://Player/player.tscn" id="1_igad0"]
+
+[node name="World" type="Node2D"]
+
+[node name="NightClearing" parent="." instance=ExtResource("1_6e3cg")]
+
+[node name="Player" parent="." instance=ExtResource("1_igad0")]
+position = Vector2(592, 304)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(0, 3)
+zoom = Vector2(1.5, 1.5)

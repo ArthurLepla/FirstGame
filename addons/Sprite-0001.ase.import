@@ -1,0 +1,25 @@
+[remap]
+
+importer="Aseprite AnimatedSprite2D Import"
+type="PackedScene"
+uid="uid://uy1jvay38k8"
+path="res://.godot/imported/Sprite-0001.ase-f27f89f6cdb3f90b1e2a61f198ead020.scn"
+
+[deps]
+
+source_file="res://addons/Sprite-0001.ase"
+dest_files=["res://.godot/imported/Sprite-0001.ase-f27f89f6cdb3f90b1e2a61f198ead020.scn"]
+
+[params]
+
+spritesheet/layout=0
+spritesheet/fixed_rows_count=1
+spritesheet/fixed_columns_count=1
+spritesheet/border_type=0
+spritesheet/trim=false
+spritesheet/ignore_empty=false
+spritesheet/merge_duplicates=false
+animation/default/name="idle"
+animation/default/direction=0
+animation/default/repeat_count=0
+animation/autoplay=""
