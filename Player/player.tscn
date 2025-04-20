@@ -339,12 +339,13 @@ height = 20.0
 script = ExtResource("1_u8vsg")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -8)
 sprite_frames = SubResource("SpriteFrames_wvutb")
 animation = &"Idle_down"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 y_sort_enabled = true
-position = Vector2(0, 16)
+position = Vector2(0, 8)
 shape = SubResource("CapsuleShape2D_7d03h")
 
 [node name="StateMachine" type="Node" parent="."]

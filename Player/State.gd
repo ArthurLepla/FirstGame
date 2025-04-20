@@ -24,3 +24,5 @@ func handle_input(_event: InputEvent):
 # Détermine si nous devons passer à un autre état
 func transition():
 	return null 
+
+# Modification de Player/States/UseToolState.gd

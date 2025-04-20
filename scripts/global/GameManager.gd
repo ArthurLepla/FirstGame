@@ -41,4 +41,5 @@ func randomize_weather():
 		current_weather = Weather.STORM
 
 func get_time_normalized() -> float:
+	# Retourne le temps actuel normalisé entre 0.0 et 1.0
 	return current_time / DAY_LENGTH

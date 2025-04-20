@@ -1,7 +1,7 @@
 # DebugClick.gd
 extends Node2D
 
-@onready var ground_map: TileMap = get_node("/root/NightClearing/Environment/TileMap_Ground") # Corrected path
+@onready var ground_map: TileMap = get_node("../TileMap") # Adapt path if your TileMap node is named differently
 
 func _input(event):
 	if event is InputEventMouseButton \
